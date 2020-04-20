@@ -1,0 +1,45 @@
+
+.box-div{
+    width: 400px;
+    margin-top: 40px;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+.carousel-item{
+    height: 400px;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+background-color: black;
+border-radius: 50%;
+}
+
+.carousel-indicators li{
+    background-color: black;
+}
+
+@media (max-width: 768px){
+    .box-div{
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
