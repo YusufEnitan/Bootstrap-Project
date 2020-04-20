@@ -1,0 +1,45 @@
+<html>
+    <head><h1><b>A bold header</b></h1> 
+    
+        <title> My first website</title>
+    
+    </head>
+<body>
+
+    <p>This is a paragraph</p>
+
+    <p>another paragraph</p>
+
+    <a href = "https://www.facebook.com"> this is a link, 
+    the href attributes adds more information to a html element... 
+    clickable link </a>
+
+    <img src= "1.jpg"  width="50%" height="50%"/>
+
+    <p> you can add pictures and paragraphs for space 
+       <img src= "16.jpg" width="20%" height="50"/> </p>
+
+       <button> log in </button>
+
+       <p><strong>list of colors</strong></p>
+       <ol>
+               <li>red</li>
+               <li>blue</li>
+               <li>green</li>
+               </ol>
+<h4> register </h4>
+               <input type="text" placeholder="first name">
+               <input type="password" placeholder="password">
+
+               <select>
+                   <option> --select country --</option>
+                   <option> Ghana </option>
+                   <option> Nigeria </option>
+                   <option> Korea </option>
+                   </select>
+                   <br/>
+                   <textarea placeholder="bio"></textarea>
+
+                   <button> register </button>
+</body>
+</html>

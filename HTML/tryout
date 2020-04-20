@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script type="text/javascript">
+    
+    // var x = 8;
+    // var y = 7;
+    // var sum = x + y;
+
+
+    // alert (sum);
+
+    
+
+//     var grade = 50
+//     if (grade >= 81 && grade <= 100){
+//     alert("A");
+// } else if (grade >= 71 || grade <=80){
+//     alert("B");
+// }
+//     else { alert('Failed')};
+
+function hello(){
+        var grade = 50
+    if (grade >= 81 && grade <= 100){
+    alert("A");
+} else if (grade >= 71 || grade <=80){
+    alert("B");
+}
+    else { alert('Failed')};
+}
+
+hello();
+
+    </script>
+</head>
+<body>
+
+    <input type="text" id="show" onkeypress="">
+    
+</body>
+</html>

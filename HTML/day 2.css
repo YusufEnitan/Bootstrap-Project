@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(232, 236, 177);
+    font-size: 28px;
+}
+h3
+{
+    color: darkmagenta;
+}
+p {
+    color: rgb(7, 38, 124);
+}
+#box{
+    font-size: 70px;
+}
+
+#articule-heading {
+    color: green;
+}
+#box{
+    border-style: double;;
+    border-color: rgb(152, 200, 228);
+    padding: 20px;
+    width: 900px;
+    border-width: 20px ;
+}
+input{
+    height: 80px;
+}
+ button{ height: 60px;
+
+ }
+
+
+
+ <input type="text" placeholder="Name"><br/><br/>
+ <input type="email" placeholder="Email"><br/><br/>
+ <input type="password" placeholder="Password"><br/><br/>
+
+
+.form-input{
+    height: 60px;
+    font-size: 30px;
+    color: #eee;
+
+}

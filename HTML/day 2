@@ -1,0 +1,122 @@
+<html>
+<head>
+
+<title> name of title </title>
+
+
+
+</head>
+    <body>
+ <!--when you want to link html file with css file-->
+ <link rel="stylesheet" type="text/css" href="day 1.css">
+ <label for="first-name">First-name</label>
+ <br/>
+<input placeholder="enter your first name" />
+ <br/>
+
+<label for="last-name"> last name</label>
+<br/>                <input id="last-name"/>
+<br/>
+<span style="color: darkred;"> Coco </span>
+
+<div> 
+    <label> first name </label>
+<input/>
+</div>
+<br/>
+<!--pixels dont change regardless of the screen ize, we use them for fontsize 
+    but % recalculates the size according to the screen-->
+<!--no special function but it groups elements together in CSS-->
+<div><label id="articule-heading"> last name </label>
+<input/>
+</div>
+
+<p> <u>underline this</u></p>
+<div .form-input>
+<form>
+    <h3>fill the form below to register </h3>
+<!--allows u group together different elements--> 
+<p><input class="form-input" placeholder="full name" type="text" required></p>
+<p><input class="form-input" placeholder="email" type="email" required></p>
+<p><input class="form-input" placeholder="password" type="password" required></p> 
+<!--the required attribute doesnt have value-->
+
+<p><button > register </button></p>
+
+
+<!--CSS-->
+</form>
+</div>
+<br/>
+<br/>
+
+<!--codes on how to add audios to your web page-->
+<!--we use the audio element and other attributes depending on your choice
+the control attribute specifies that the audio controls should be dispayed such as play/pause etc
+the loop attribute it specifies that the audio will start over again every time it ends
+the src the url of the audio file
+-->
+
+<!--there are 3 supported file formats....mp3-mimetype is audio/mpeg....ogg-mimetype is audio/ogg....wav-mimetype is audio/wav-->
+
+<!--some formats are not supported on some browsers hence the text-->
+
+<audio controls>
+    <source src="06 Can You Feel The Love - Lion King.mp3" type="audio/mp3">
+        <source src="06 Can You Feel The Love - Lion King.ogg" type="audio/ogg">
+            <source src="06 Can You Feel The Love - Lion King.wav" type="audio/wav">
+                Your browser does not support the audio tag.
+    </audio>
+
+<br/>
+<br/>
+
+<video width="1280px" height="720px" controls>
+    <source src="3eafd2bed6424fe7b91f1864453a5d12.mp4" type="video/mp4">
+    <source src="3eafd2bed6424fe7b91f1864453a5d12.mp3" type="video/mp3">
+    <source src="3eafd2bed6424fe7b91f1864453a5d12.ogg" type="video/ogg">
+        Your browser does not support the video tag
+        </video>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. action="/action_page.php"
+2. class="form-group"
+3.  class="form-control" id="email"
+4. class="form-group form-check"
+5. class="form-check-label"
+6. class="form-check-input"
+7. class="btn btn-primary"
+
+
+<div> 
+        <label >
+          <input  type="checkbox"> Remember me
+        </label>
+      </di

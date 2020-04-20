@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(42, 146, 111);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* this is a single line comment */
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+b{
+    color: goldenrod;
+}
+
+li{
+    font-weight: bolder;
+    text-align: justify;
+    color: purple;
+}
+
+h2 {
+    color: rgb(110, 5, 230);
+    font-style: oblique;
+}
+
+form {
+    border-style: solid;
+    border-color: maroon;
+    background-color: mediumslateblue;
+    border-width: 10px;
+    scroll-behavior: smooth;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form-input
+{
+    height: 20px;
+    font-size: small;
+    color: rgb(20, 20, 20);
+    display: inline;
+}
+
+textarea{
+    color: darkorange;
+}
+
+button{background-color: fuchsia;
+font-size: 20px;
+border-style: groove;
+color: gainsboro;
+}
+
+button:hover{
+    border-color: blueviolet;
+    border-style: groove;
+    border-width: 2px;
+    background-color: chocolate;
+}
